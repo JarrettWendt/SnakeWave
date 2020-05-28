@@ -8,5 +8,14 @@ This was a game created in 2 weeks as our first game we made as graduate student
 - Rachel Morton: particle effects
 - Michael Marte: background shaders
 
-## Dependencies
+### Controls
+#### Left Player
+- WASD to move
+- Left Shift to use power-up
+
+#### Right Player
+- Arrow Keys to move
+- Right Shift to use power-up
+
+### Dependencies
 - Unity 2019.3.15f1
