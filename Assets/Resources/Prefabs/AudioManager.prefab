@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8556290288878123638
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8556290288878123640}
+  - component: {fileID: 8556290288878123641}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8556290288878123640
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8556290288878123638}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.392948, y: 1.4603363, z: -384.01227}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8556290288878123641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8556290288878123638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230106bc4cff78c4c817c9e43f8c9617, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - loop: 1
+    name: StartMenuMusic
+    volume: 0.3
+    pitch: 1
+    clip: {fileID: 8300000, guid: a3650a5c9ed63444297a35833a59b25a, type: 3}
+    source: {fileID: 0}
+  - loop: 0
+    name: MenuButtonSFX
+    volume: 0.9
+    pitch: 1
+    clip: {fileID: 8300000, guid: 91e49b4f767c6f043924443209c57765, type: 3}
+    source: {fileID: 0}
+  - loop: 0
+    name: AnnouncerStart
+    volume: 0.85
+    pitch: 1
+    clip: {fileID: 8300000, guid: 177c8a092ac4ce247b3b4f4c2890c6bb, type: 3}
+    source: {fileID: 0}
+  - loop: 1
+    name: BackgroundMusic
+    volume: 0.5
+    pitch: 1
+    clip: {fileID: 8300000, guid: f18994f76481eb84f9cf21c8fecd490e, type: 3}
+    source: {fileID: 0}
+  - loop: 0
+    name: AnnouncerCountdown
+    volume: 0.85
+    pitch: 1
+    clip: {fileID: 8300000, guid: 601e59995a51afd45a51bb6c1abe5de1, type: 3}
+    source: {fileID: 0}
+  - loop: 0
+    name: CrashSFX
+    volume: 0.85
+    pitch: 1
+    clip: {fileID: 8300000, guid: b2dca0d8fdf68064d8ffa4e6406a0111, type: 3}
+    source: {fileID: 0}
+  - loop: 1
+    name: GameOverMusic
+    volume: 0.15
+    pitch: 1
+    clip: {fileID: 8300000, guid: 86a4d00cd61477d449467d92e965f924, type: 3}
+    source: {fileID: 0}
+  - loop: 0
+    name: AnnouncerGameOver01
+    volume: 0.85
+    pitch: 1
+    clip: {fileID: 8300000, guid: 759d481343761ca479c9c0f5984fc78f, type: 3}
+    source: {fileID: 0}
+  - loop: 0
+    name: AnnouncerGameOver02
+    volume: 0.85
+    pitch: 1
+    clip: {fileID: 8300000, guid: d29d5f03912b14e4cbd74f161dc0bd9c, type: 3}
+    source: {fileID: 0}
+  - loop: 0
+    name: AnnouncerGameOver03
+    volume: 0.85
+    pitch: 1
+    clip: {fileID: 8300000, guid: 413960def4e2ddb42b6550a9f29e18ee, type: 3}
+    source: {fileID: 0}
+  - loop: 0
+    name: AnnouncerGameOver04
+    volume: 0.85
+    pitch: 1
+    clip: {fileID: 8300000, guid: 478c34935686fb74eb7c0ef80236b503, type: 3}
+    source: {fileID: 0}
+  - loop: 0
+    name: AnnouncerGameOver05
+    volume: 0.85
+    pitch: 1
+    clip: {fileID: 8300000, guid: a5806ad527fea654e9168d3aa9cb05ff, type: 3}
+    source: {fileID: 0}
+  - loop: 0
+    name: AnnouncerGameOver06
+    volume: 0.85
+    pitch: 1
+    clip: {fileID: 8300000, guid: e6d7388279dbe9849a36dc7c5bb2b73f, type: 3}
+    source: {fileID: 0}
+  - loop: 0
+    name: AnnouncerGameOver07
+    volume: 0.85
+    pitch: 1
+    clip: {fileID: 8300000, guid: a4e423cf4ddbbd04ab8a53f8443870e4, type: 3}
+    source: {fileID: 0}
+  - loop: 0
+    name: AnnouncerGameOver08
+    volume: 0.85
+    pitch: 1
+    clip: {fileID: 8300000, guid: ca5188a35d3135442bee664a69b6907e, type: 3}
+    source: {fileID: 0}
+  - loop: 0
+    name: EquipSFX
+    volume: 0.85
+    pitch: 1
+    clip: {fileID: 8300000, guid: a077dcb0e6c18d54c865d02643507954, type: 3}
+    source: {fileID: 0}
+  - loop: 0
+    name: Laser
+    volume: 0.85
+    pitch: 1
+    clip: {fileID: 8300000, guid: 3f3d34024ea7a224591794bfcd0bc313, type: 3}
+    source: {fileID: 0}
+  - loop: 0
+    name: MissileShotSFX
+    volume: 0.85
+    pitch: 1
+    clip: {fileID: 8300000, guid: 3e76c56cda551e744b17c0a44881e38d, type: 3}
+    source: {fileID: 0}
+  - loop: 0
+    name: MissileExplosionSFX
+    volume: 0.85
+    pitch: 1
+    clip: {fileID: 8300000, guid: 3c2fb506166ba784fb771cac58b4382f, type: 3}
+    source: {fileID: 0}
+  - loop: 0
+    name: MissileSoundSFX
+    volume: 0.85
+    pitch: 1
+    clip: {fileID: 8300000, guid: 3c2fb506166ba784fb771cac58b4382f, type: 3}
+    source: {fileID: 0}
